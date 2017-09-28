@@ -23,3 +23,4 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 
 
 
+notice: this project is lack of image file.
