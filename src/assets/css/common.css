@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* Safari and Chrome */
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 150ms;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+    padding: 0;
+    margin: 0;
+    border: 0px;
+    font-family: '微软雅黑', 'arial';
+    list-style: none;
+    background: transparent;
+}
+
+
+html {
+    margin: 0px;
+    padding: 0px;
+    background-color: #000000;
+    /* Safari and Chrome */
+    -webkit-transition-property: none;
+    -webkit-transition-duration: 1ms;
+
+    /*transform: translate(-21.87%, -10%) scale(0.5625, 0.8);
+    -webkit-transform: translate(-21.87%, -10%) scale(0.5625, 0.8);*/
+}
+
+@media screen and (max-width: 1279px) {
+    html {
+        transform: translate(-21.87%, -10%) scale(0.5625, 0.8);
+        -webkit-transform: translate(-21.87%, -10%) scale(0.5625, 0.8);
+    }
+}
+
+/*清除浮动*/
+.clearfix:after{
+    display:block;
+    clear:both;
+    content: "";
+    visibility:hidden;
+    height:0;
+}
+.clearfix{
+    zoom:1;
+}
+.bg{
+
+  position: relative;
+  width: 1280px;
+  height: 720px;
+
+}
+.movie {
+  background: url("../img/movie/bg.jpg") no-repeat;
+}
+.tv{
+  background: url("../img/tv/bg.jpg") no-repeat;
+}
+.tv-episode{
+  background: url("../img/tv/episode_bg.jpg") no-repeat;
+}
+.animation{
+  background: url("../img/animation/animation_bg.jpg") no-repeat;
+}
+.animation-episode{
+  background: url("../img/animation/episode_bg.jpg") no-repeat;
+}
+.arts{
+  background: url("../img/arts/arts_bg.jpg") no-repeat;
+}
+.culture{
+  background: url("../img/culture/culture_bg.jpg") no-repeat;
+}
+.sports {
+  background: url("../img/sports/sports_bg.jpg") no-repeat;
+}
+.sports {
+  background: url("../img/sports/sports_bg.jpg") no-repeat;
+}
+.hot {
+  background: url("../img/hot/hot.jpg") no-repeat;
+}
+.hot-episode{
+  background: url("../img/hot/episode_bg.jpg") no-repeat;
+}
+.news{
+  background: url("../img/news/bg.jpg") no-repeat;
+}
+.life{
+  background: url("../img/life/bg.jpg") no-repeat;
+}
+.vip-hollywood {
+  background: url("../img/vip/hollywood_bg.jpg") no-repeat;
+}
+.vip-hollywood-episode {
+  background: url("../img/vip/hollywood_episode.jpg") no-repeat;
+}
+.vip-latale{
+  background: url("../img/vip/latale_bg.jpg") no-repeat;
+}
+.vip-latale-episode{
+  background: url("../img/vip/latale_episode.jpg") no-repeat;
+}
+.logo{
+  position:absolute; width:400px; height:49px; left:54px; top:36px
+}
+
+.movie .logo{
+  background: url("../img/movie/logo.png") no-repeat;
+}
+
+.tv  .logo{
+  background: url("../img/tv/logo.png") no-repeat;
+}
+.tv-episode  .logo{
+  background: url("../img/tv/logo.png") no-repeat;
+}
+.animation .logo{
+  background: url("../img/animation/logo.png") no-repeat;
+}
+.animation-episode .logo{
+  background: url("../img/animation/logo.png") no-repeat;
+}
+.arts .logo{
+  background: url("../img/arts/logo.png") no-repeat;
+}
+.culture .logo {
+  background: url("../img/culture/logo.png") no-repeat;
+}
+.sports .logo {
+  background: url("../img/sports/logo.png") no-repeat;
+}
+.hot .logo {
+  background: url("../img/hot/logo.png") no-repeat;
+}
+.hot-episode .logo{
+  background: url("../img/hot/logo.png") no-repeat;
+}
+.news .logo{
+  background: url("../img/news/logo.png") no-repeat;
+}
+.life .logo{
+  background: url("../img/life/logo.png") no-repeat;
+}
+.vip-hollywood .logo{
+  background: url("../img/vip/logo.png") no-repeat;
+}
+.vip-latale .logo{
+  background: url("../img/vip/logo.png") no-repeat;
+}
+.vip-hollywood-episode .logo{
+  background: url("../img/vip/logo.png") no-repeat;
+}
+.vip-latale-episode .logo{
+  background: url("../img/vip/logo.png") no-repeat;
+}
+
